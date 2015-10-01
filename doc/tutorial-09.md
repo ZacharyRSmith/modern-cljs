@@ -184,7 +184,7 @@ see if someone else, having my same pain, solved it.
 The first CLJS library I found to relieve my pain was
 [hiccups][6]. It's just an incomplete port of [hiccup][7] on CLJS. It
 uses vectors to represent tags and maps to represent a tag's
-attrbutes.
+attributes.
 
 Here are some basic documented examples of hiccups usage:
 
@@ -196,7 +196,7 @@ Here are some basic documented examples of hiccups usage:
 ;; emits "<script></script>"
 
 (html [:p])
-;; emits "<p/>
+;; emits "<p/>"
 ```
 
 hiccups also provides a CSS-like shortcut for denoting `id` and
